@@ -22,7 +22,7 @@ app = Flask(__name__)
 
 @app.route('/',methods=['POST'])
 def home():
-    return 'Hello World'
+    return 'Hello India'
 
 @app.route('/predict', methods=['POST'])
 def predict():
